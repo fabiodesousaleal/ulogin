@@ -7,5 +7,8 @@
     ```
     2.2 - Adicionando todos os componentes
     ```sh 
-    npx shadcn@latest add --all 
+    npx shadcn@latest add --all     
+
     ```
+ npm install next-auth@beta
+ npm install next-auth@beta --force
