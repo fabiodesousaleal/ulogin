@@ -40,7 +40,7 @@ export default function LoginPage() {
       router.push("/dashboard")
       router.refresh()
     } catch (error) {
-      setError("Ocorreu um erro ao fazer login. Tente novamente.")
+      setError("Ocorreu um erro ao fazer login. Tente novamente." + error)
     } finally {
       setIsLoading(false)
     }
